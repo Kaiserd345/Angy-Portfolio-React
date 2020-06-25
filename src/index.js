@@ -3,7 +3,11 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import 'antd/dist/antd.css';
+import '@quasar/extras/ionicons-v4/ionicons-v4.css';
+
 import './assets/scss/base.scss';
+
 
 ReactDOM.render(
   <React.StrictMode>
