@@ -33,7 +33,7 @@ export default function Navigation () {
     ]
     return (
         <nav className="site-navigation">
-            <span>Angy Nicko</span>
+            <span clasName="menu-title" >Angy Nicko</span>
             <ul>
                 { socialLinks.map((link, index) => (
                     <li key={index}>
